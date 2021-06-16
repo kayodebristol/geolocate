@@ -1,9 +1,9 @@
 [DEFAULT]
 app = geolocate
 version = 1.4.3
-source_git = https://github.com/dante-signal31/${app}, master
-fpm_args = --maintainer dante.signal31@gmail.com -a native --url
-    https://github.com/dante-signal31/${app} --description
+source_git = https://github.com/kayodebristol/${app}, master
+fpm_args = --maintainer kayode.bristol@gmail.com -a native --url
+    https://github.com/kayodebristol/${app} --description
     "This program accepts any text and searchs inside every IP
     address. With each of those IP addresses,
     ${app} queries
@@ -24,3 +24,6 @@ after_remove = packaging/postuninst.sh
 
 [Ubuntu-package]
 profile = ubuntu-trusty
+
+[Centos7-package]
+profile = centos7
