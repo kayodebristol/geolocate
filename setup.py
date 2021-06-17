@@ -37,9 +37,6 @@ setup(name="glocate",
                    'Programming Language :: Python :: 3',
                    'Programming Language :: Python :: 3.4'],
       keywords="geolocation ip addresses",
-      install_requires=["geoip2", "maxminddb", "requests",
-                        "wget", "wheel", "keyring",
-                        "dbus-python"],
       zip_safe=False,
       # TODO: This exclude is not working when building wheels, tests package
       # is still included in packages. It's a bug in pip:
